@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mudar Cor de Fundo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>Mudar Cor de Fundo</h1>
+    <div class="color-form">
+      <form id="bgform">
+        <label for="colorInput">Insira um código de cor hexadecimal:</label>
+        <input type="text" id="colorInput" placeholder="#FFFFFF" maxlength="7" pattern="^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$" required>
+        <button id="changeColorBtn" type="button">Mudar Cor</button>
+      </form>
+    </div>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
